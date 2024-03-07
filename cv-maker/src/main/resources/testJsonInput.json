@@ -1,0 +1,110 @@
+{
+  "name": "John Doe",
+  "address": "123 Main St, Anytown, Anycountry",
+  "phoneNumber": "+123456789",
+  "email": "john.doe@example.com",
+  "linkedIn": "linkedin.com/in/johndoe",
+  "website": "www.johndoe.com",
+  "position": "Graduate Software Engineer",
+  "executiveSummary": "3+ years of software engineering experience, specializing in web development and cloud computing.",
+  "technicalProficiencies": {
+    "Programming Languages": ["Java", "Python", "JavaScript"],
+    "Frameworks & Libraries": ["Spring Boot", "React", "Node.js"],
+    "Databases": ["MySQL", "MongoDB"],
+    "Tools": ["Git", "Docker", "Jenkins"]
+  },
+  "experiences": [
+    {
+      "companyName": "Tech Innovations Inc.",
+      "position": "Software Engineer",
+      "companyAddress": "456 Tech Park, Techville, Techland",
+      "startDate": "2021-06-01",
+      "endDate": "2023-05-31",
+      "stillWorking": false,
+      "description": [
+        "Developed and maintained scalable web applications using Java and Spring Boot.",
+        "Led a team to design a microservices architecture for a cloud-based solution.",
+        "Implemented CI/CD pipelines, reducing deployment time by 50."
+      ]
+    },
+    {
+      "companyName": "Future Solutions",
+      "position": "Graduate Lorem Ipsum Shite",
+      "companyAddress": "789 Future Ave, Futuria, Futureland",
+      "startDate": "2020-01-01",
+      "endDate": "2021-05-31",
+      "stillWorking": true,
+      "description": [
+        "Designed and developed a real-time analytics tool using Python and Flask.",
+        "Optimized database queries, improving performance by 30.",
+        "Contributed to open-source projects relevant to the company's tech stack."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Lorem ipsum shite",
+      "technologiesUsed": ["Lorem", "ipsum", "shite", "Spring Boot"],
+      "premise": "Lorem Ipsum Shite is what I am trying to solve",
+      "description": [
+        "Lorem ipsum shite 1",
+        "Lorem ipsum shite 2",
+        "Lorem ipsum shite 3"
+      ]
+    },
+    {
+      "name": "Lorem ipsum shite",
+      "technologiesUsed": ["Lorem", "ipsum", "shite", "Spring Boot"],
+      "premise": "Lorem Ipsum Shite is what I am trying to solve",
+      "description": [
+        "Lorem ipsum shite 1",
+        "Lorem ipsum shite 2",
+        "Lorem ipsum shite 3"
+      ]
+    },
+    {
+      "name": "Lorem ipsum shite",
+      "technologiesUsed": ["Lorem", "ipsum", "shite", "Spring Boot"],
+      "premise": "Lorem Ipsum Shite is what I am trying to solve",
+      "description": [
+        "Lorem ipsum shite 1",
+        "Lorem ipsum shite 2",
+        "Lorem ipsum shite 3"
+      ]
+    }
+  ],
+  "educations": [
+    {
+      "instituteName": "Royal Holloway University of London",
+      "subject": "Computer Science with Information Security",
+      "startDate": "2020-09-21",
+      "endDate": "2024-06-07",
+      "grade": "First Class Honours",
+      "description": [
+        "Bachelor of Science in Computer Science",
+        "Graduated with First Class Honours",
+        "Capstone project on distributed systems"
+      ]
+    }
+  ],
+  "skills": ["Team Leadership", "Problem Solving", "Agile Methodologies"],
+  "languages": {
+    "Hindi": ["Spoken", "Written", "Read"],
+    "English": ["Spoken", "Written", "Read"],
+    "Arabic": ["Written", "Read"]
+  },
+  "certifications": [
+    {
+      "name": "Microsoft Azure Fundamentals",
+      "issuer": "Microsoft Azure",
+      "issueDate": "2020-01-15",
+      "expiryDate": "2022-03-23"
+    },
+    {
+      "name": "Microsoft Azure Fundamentals",
+      "issuer": "Microsoft Azure",
+      "issueDate": "2020-01-15",
+      "expiryDate": "2022-03-23"
+    }
+  ]
+}
