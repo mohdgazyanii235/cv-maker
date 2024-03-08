@@ -1,0 +1,232 @@
+%-------------------------
+% Resume in Latex
+% Author : Gennadii Chursov
+% Based off of: https://github.com/sb2nov/resume and https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape John Doe} \\ \vspace{1pt}
+    \small \textit{Graduate Software Engineer} \\
+    123-456-7890 $|$ \href{mailto:john.doe@example.com}{\underline{john.doe@example.com}} $|$
+    \href{linkedin.com/in/johndoe}{\underline{linkedin.com/in/johndoe}} $|$
+    \href{www.johndoe.com}{\underline{www.johndoe.com}}
+\end{center}
+
+%-----------SUMMARY-----------
+    \section*{Summary}
+    3+ years of software engineering experience, specializing in web development and cloud computing.
+
+
+%-----------TECHNICAL SKILLS-----------
+    \section{Technical Proficiencies}
+        \begin{itemize}[leftmargin=0.15in, label={}]
+            \small{\item{
+                    \textbf{Programming Languages}{: Java, Python, JavaScript} \\
+                    \textbf{Tools}{: Git, Docker, Jenkins} \\
+                    \textbf{Frameworks & Libraries}{: Spring Boot, React, Node.js} \\
+                    \textbf{Databases}{: MySQL, MongoDB} 
+            }}
+        \end{itemize}
+
+%-----------EXPERIENCE-----------
+    \section{Experience}
+      \resumeSubHeadingListStart
+
+            \resumeSubheading
+            {Software Engineer}{2021-06-01 -- 2023-05-31}
+            {Tech Innovations Inc.}{456 Tech Park, Techville, Techland}
+            \resumeItemListStart
+                \resumeItem{Developed and maintained scalable web applications using Java and Spring Boot.}
+                \resumeItem{Led a team to design a microservices architecture for a cloud-based solution.}
+                \resumeItem{Implemented CI/CD pipelines, reducing deployment time by 50.}
+            \resumeItemListEnd
+            \resumeSubheading
+            {Graduate Lorem Ipsum Shite}{2020-01-01 -- 2021-05-31}
+            {Future Solutions}{789 Future Ave, Futuria, Futureland}
+            \resumeItemListStart
+                \resumeItem{Designed and developed a real-time analytics tool using Python and Flask.}
+                \resumeItem{Optimized database queries, improving performance by 30.}
+                \resumeItem{Contributed to open-source projects relevant to the company's tech stack.}
+            \resumeItemListEnd
+
+      \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+    \section{Projects}
+        \resumeSubHeadingListStart
+                \resumeProjectHeading
+                    {\textbf{Lorem ipsum shite} $|$ \emph{Lorem,ipsum,shite,Spring Boot,}}{}
+                    \resumeItem{\textit{\textbf{Problem - } Lorem Ipsum Shite is what I am trying to solve}}
+                    \resumeItemListStart
+                            \resumeItem{Lorem ipsum shite 1}
+                            \resumeItem{Lorem ipsum shite 2}
+                            \resumeItem{Lorem ipsum shite 3}
+                    \resumeItemListEnd
+                \resumeProjectHeading
+                    {\textbf{Lorem ipsum shite} $|$ \emph{Lorem,ipsum,shite,Spring Boot,}}{}
+                    \resumeItem{\textit{\textbf{Problem - } Lorem Ipsum Shite is what I am trying to solve}}
+                    \resumeItemListStart
+                            \resumeItem{Lorem ipsum shite 1}
+                            \resumeItem{Lorem ipsum shite 2}
+                            \resumeItem{Lorem ipsum shite 3}
+                    \resumeItemListEnd
+                \resumeProjectHeading
+                    {\textbf{Lorem ipsum shite} $|$ \emph{Lorem,ipsum,shite,Spring Boot,}}{}
+                    \resumeItem{\textit{\textbf{Problem - } Lorem Ipsum Shite is what I am trying to solve}}
+                    \resumeItemListStart
+                            \resumeItem{Lorem ipsum shite 1}
+                            \resumeItem{Lorem ipsum shite 2}
+                            \resumeItem{Lorem ipsum shite 3}
+                    \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+    \section{Education}
+      \resumeSubHeadingListStart
+            \resumeSubheading
+            {Royal Holloway University of London}{2020-09-21 -- 2024-06-07}
+            {Computer Science with Information Security}{First Class Honours}
+            \resumeItemListStart
+                \resumeItem{Bachelor of Science in Computer Science}
+                \resumeItem{Graduated with First Class Honours}
+                \resumeItem{Capstone project on distributed systems}
+            \resumeItemListEnd
+      \resumeSubHeadingListEnd
+
+
+    \section*{Additional Skills}
+            Agile Methodologies, 
+            Problem Solving, 
+            Team Leadership
+
+%-----------Certifications-----------
+    \section{Certifications}
+      \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+         \textbf{Microsoft Azure Fundamentals - Microsoft Azure} \\
+         \textit{2020-01-15 - 2022-03-23} \\
+         \textbf{Microsoft Azure Fundamentals - Microsoft Azure} \\
+         \textit{2020-01-15 - 2022-03-23} \\
+        }}
+     \end{itemize}
+
+%-----------LANGUAGES-----------
+    \section{Languages}
+        \begin{itemize}[leftmargin=0.15in, label={}]
+            \small{\item{
+                    \textbf{English}{: Spoken, Written, Read} \\
+                    \textbf{Hindi}{: Spoken, Written, Read} \\
+                    \textbf{Arabic}{: Written, Read} 
+            }}
+        \end{itemize}
+
+%-------------------------------------------
+\end{document}

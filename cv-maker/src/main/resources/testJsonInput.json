@@ -1,26 +1,26 @@
 {
-  "name": "John Doe",
-  "address": "123 Main St, Anytown, Anycountry",
-  "phoneNumber": "+123456789",
-  "email": "john.doe@example.com",
-  "linkedIn": "linkedin.com/in/johndoe",
-  "website": "www.johndoe.com",
+  "name": "Mohamed Yusuf",
+  "address": "Egham, Surrey",
+  "phoneNumber": "+44(0)7955170009",
+  "email": "mohdgazyanii235@gmail.com",
+  "linkedIn": "https://www.linkedin.com/in/moyusuf01",
+  "website": "https://github.com/mohdgazyanii235",
   "position": "Graduate Software Engineer",
-  "executiveSummary": "3+ years of software engineering experience, specializing in web development and cloud computing.",
+  "executiveSummary": "4+ years of software engineering experience, specialising in building secure applications using Java, Python and C++",
   "technicalProficiencies": {
-    "Programming Languages": ["Java", "Python", "JavaScript"],
-    "Frameworks & Libraries": ["Spring Boot", "React", "Node.js"],
-    "Databases": ["MySQL", "MongoDB"],
+    "Programming Languages": ["Java", "Kotlin", "Python", "JavaScript", "C++", "C#", "Rust", "Typescript"],
+    "Frameworks & Libraries": ["Java Spring", "ReactJs", "ReactNative", "NodeJs", "NextJs", "Django", "Flask"],
+    "Systems & Tools": ["Microsoft Azure", "AWS", "Heroku", "Kubernetes", "Git", "SVN", "Docker", "Redis", "Jenkins"],
     "Tools": ["Git", "Docker", "Jenkins"]
   },
   "experiences": [
     {
-      "companyName": "Tech Innovations Inc.",
-      "position": "Software Engineer",
-      "companyAddress": "456 Tech Park, Techville, Techland",
-      "startDate": "2021-06-01",
-      "endDate": "2023-05-31",
-      "stillWorking": false,
+      "companyName": "Royal Holloway University of London",
+      "position": "Computer Science Teaching Assistant",
+      "companyAddress": "Egham, Surrey",
+      "startDate": "Sept 23",
+      "endDate": "Present",
+      "stillWorking": true,
       "description": [
         "Developed and maintained scalable web applications using Java and Spring Boot.",
         "Led a team to design a microservices architecture for a cloud-based solution.",
@@ -28,48 +28,76 @@
       ]
     },
     {
-      "companyName": "Future Solutions",
-      "position": "Graduate Lorem Ipsum Shite",
-      "companyAddress": "789 Future Ave, Futuria, Futureland",
-      "startDate": "2020-01-01",
-      "endDate": "2021-05-31",
+      "companyName": "Royal Holloway Student's Union",
+      "position": "Lead Web Developer",
+      "companyAddress": "Egham, Surrey",
+      "startDate": "Sept 23",
+      "endDate": "Present",
       "stillWorking": true,
       "description": [
-        "Designed and developed a real-time analytics tool using Python and Flask.",
-        "Optimized database queries, improving performance by 30.",
-        "Contributed to open-source projects relevant to the company's tech stack."
+        "Elevated user interfaces, achieving a 40% increase in user engagement through expert application of ReactJS, HTML, CSS, and JavaScript. Demonstrated superior front-end development skills and user experience focus.",
+        "Led the seamless integration of VCS automation and CI/CD pipelines, enhancing team productivity by 30% and ensuring bug-free code with a commitment to TDD principles.",
+        "Spearheaded the rapid development and delivery of 5 application iterations within a tight deadline, showcasing agility\nand responsiveness to organizational needs.",
+        "Secured a critical system vulnerability, fortifying web security and safeguarding sensitive data, reflecting a proactive\napproach to cybersecurity and technical proficiency."
+      ]
+    },
+    {
+      "companyName": "Pollinate International Limited",
+      "position": "Junior Software Engineer / Service Management Intern",
+      "companyAddress": "London, England",
+      "startDate": "July 22",
+      "endDate": "Sept 23",
+      "stillWorking": false,
+      "description": [
+        "Slashed service request response time from average of 13 days to 3 hours by developing security approval automation.",
+        "Successfully led the development of an observability system for 32 product components to achieve multi-fold performance improvements within 4 months.",
+        "Led Apache Kafka integration, boosting transaction throughput by 300%, setting a new fintech industry standard.",
+        "Worked extensively within the back-end team to deliver important stories using Spring Boot Java and Apache Kafka.",
+        "Spearheaded the development of a feature-rich, internal tool that automated the previously manual process of code deployment, reducing the deployment time by 75% and significantly increasing the development team's efficiency and productivity."
+      ]
+    },
+    {
+      "companyName": "Pollinate International Limited",
+      "position": "Junior Software Engineer / Service Management Intern",
+      "companyAddress": "London, England",
+      "startDate": "July 22",
+      "endDate": "Sept 23",
+      "stillWorking": false,
+      "description": [
+        "Successfully led the development of an observability system for 32 product components to achieve multi-fold performance improvements within 4 months.",
+        "Conducted security assessments of the widevine.dll file with a systematic approach, identifying and evaluating potential vulnerabilities and demonstrating software engineering knowledge in cybersecurity.",
+        "Employed malware analysis tools like Ghidra and IDA Pro, showcasing proficiency in software reverse engineering and data analysis.",
+        "Research Paper URL: https://shorturl.at/eyHIO"
       ]
     }
   ],
   "projects": [
     {
-      "name": "Lorem ipsum shite",
-      "technologiesUsed": ["Lorem", "ipsum", "shite", "Spring Boot"],
-      "premise": "Lorem Ipsum Shite is what I am trying to solve",
+      "name": "CV Maker",
+      "technologiesUsed": ["Java Spring Boot", "ReactJs", "Free Marker Templating Engine", "Latex"],
+      "premise": "The process of tailoring ones CV for different job applications is tedious and time consuming.",
       "description": [
-        "Lorem ipsum shite 1",
-        "Lorem ipsum shite 2",
-        "Lorem ipsum shite 3"
+        "Implemented a user-friendly front-end portal for seamless portfolio management and JSON file population.",
+        "Enabled dynamic CV content selection, allowing users to tailor their resumes effortlessly for diverse job applications.",
+        "Automated PDF CV generation with customizable LaTeX templates, streamlining the resume creation process."
       ]
     },
     {
-      "name": "Lorem ipsum shite",
-      "technologiesUsed": ["Lorem", "ipsum", "shite", "Spring Boot"],
-      "premise": "Lorem Ipsum Shite is what I am trying to solve",
+      "name": "Sudoku Solver",
+      "technologiesUsed": ["Python"],
+      "premise": "Solving Sudoku puzzles rapidly and accurately with an automated Python solution, bypassing human error and time constraints.",
       "description": [
-        "Lorem ipsum shite 1",
-        "Lorem ipsum shite 2",
-        "Lorem ipsum shite 3"
+        "Utilised backtracking to achieve efficient puzzle resolution by systematically exploring all possible solutions for each cell."
       ]
     },
     {
-      "name": "Lorem ipsum shite",
-      "technologiesUsed": ["Lorem", "ipsum", "shite", "Spring Boot"],
+      "name": "Personal Portfolio Website",
+      "technologiesUsed": ["ReactJs", "Github Pages"],
       "premise": "Lorem Ipsum Shite is what I am trying to solve",
       "description": [
-        "Lorem ipsum shite 1",
-        "Lorem ipsum shite 2",
-        "Lorem ipsum shite 3"
+        "Designed and deployed a personal portfolio website leveraging ReactJs for dynamic user interactions and optimized for performance.",
+        "Hosted on GitHub Pages for reliable, zero-cost hosting, demonstrating proficiency in deploying and maintaining web content.",
+        "Showcased a range of projects, skills, and accomplishments through an engaging, user-friendly interface, enhancing online visibility and professional branding.",
       ]
     }
   ],
@@ -77,17 +105,29 @@
     {
       "instituteName": "Royal Holloway University of London",
       "subject": "Computer Science with Information Security",
-      "startDate": "2020-09-21",
-      "endDate": "2024-06-07",
+      "startDate": "Sept 20",
+      "endDate": "June 24",
       "grade": "First Class Honours",
       "description": [
-        "Bachelor of Science in Computer Science",
-        "Graduated with First Class Honours",
-        "Capstone project on distributed systems"
+        "Received first class result in every exam and assignment held at university.",
+        "Awarded the Scholarship of International Leadership",
+        "Won runner-up position in the Java coding competition",
+        "Selected to be a 'Student Mentor' for first and second year students"
+      ]
+    },
+    {
+      "instituteName": "Dubai Scholars Private School",
+      "subject": "IT",
+      "startDate": "Sept 18",
+      "endDate": "June 20",
+      "grade": "A",
+      "description": [
+        "Elected House Captain and Head of Discipline",
+        "Led and organised 'DS Venturists' an inter-school business competition"
       ]
     }
   ],
-  "skills": ["Team Leadership", "Problem Solving", "Agile Methodologies"],
+  "skills": ["ITSM", "Agile", "Leadership", "Communication"],
   "languages": {
     "Hindi": ["Spoken", "Written", "Read"],
     "English": ["Spoken", "Written", "Read"],
@@ -95,16 +135,28 @@
   },
   "certifications": [
     {
-      "name": "Microsoft Azure Fundamentals",
-      "issuer": "Microsoft Azure",
-      "issueDate": "2020-01-15",
-      "expiryDate": "2022-03-23"
+      "name": "Problem Solving",
+      "issuer": "HackerRank",
+      "issueDate": "Nov 23",
+      "expiryDate": ""
     },
     {
-      "name": "Microsoft Azure Fundamentals",
-      "issuer": "Microsoft Azure",
-      "issueDate": "2020-01-15",
-      "expiryDate": "2022-03-23"
+      "name": "SQL",
+      "issuer": "HackerRank",
+      "issueDate": "Nov 23",
+      "expiryDate": ""
+    },
+    {
+      "name": "Rest API",
+      "issuer": "HackerRank",
+      "issueDate": "Nov 23",
+      "expiryDate": ""
+    },
+    {
+      "name": "Software Engineering",
+      "issuer": "HackerRank",
+      "issueDate": "Nov 23",
+      "expiryDate": ""
     }
   ]
 }
