@@ -15,8 +15,8 @@ public class Education {
     private String instituteName;
     private String subject;
     private String grade;
-    private LocalDate startDate;
-    private LocalDate endDate;
+    private String startDate;
+    private String endDate;
     private ArrayList<String> description;
 
 

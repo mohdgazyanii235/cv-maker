@@ -6,11 +6,11 @@
   "linkedIn": "https://www.linkedin.com/in/moyusuf01",
   "website": "https://github.com/mohdgazyanii235",
   "position": "Graduate Software Engineer",
-  "executiveSummary": "4+ years of software engineering experience, specialising in building secure applications using Java, Python and C++",
+  "executiveSummary": "5+ years of software engineering experience, specialising in building secure applications using Java, Python and C++",
   "technicalProficiencies": {
     "Programming Languages": ["Java", "Kotlin", "Python", "JavaScript", "C++", "C#", "Rust", "Typescript"],
-    "Frameworks & Libraries": ["Java Spring", "ReactJs", "ReactNative", "NodeJs", "NextJs", "Django", "Flask"],
-    "Systems & Tools": ["Microsoft Azure", "AWS", "Heroku", "Kubernetes", "Git", "SVN", "Docker", "Redis", "Jenkins"],
+    "Frameworks \\& Libraries": ["Java Spring", "ReactJs", "ReactNative", "NodeJs", "NextJs", "Django", "Flask"],
+    "Systems \\& Tools": ["Microsoft Azure", "AWS", "Heroku", "Kubernetes", "Git", "SVN", "Docker", "Redis"],
     "Tools": ["Git", "Docker", "Jenkins"]
   },
   "experiences": [
@@ -35,10 +35,23 @@
       "endDate": "Present",
       "stillWorking": true,
       "description": [
-        "Elevated user interfaces, achieving a 40% increase in user engagement through expert application of ReactJS, HTML, CSS, and JavaScript. Demonstrated superior front-end development skills and user experience focus.",
-        "Led the seamless integration of VCS automation and CI/CD pipelines, enhancing team productivity by 30% and ensuring bug-free code with a commitment to TDD principles.",
-        "Spearheaded the rapid development and delivery of 5 application iterations within a tight deadline, showcasing agility\nand responsiveness to organizational needs.",
-        "Secured a critical system vulnerability, fortifying web security and safeguarding sensitive data, reflecting a proactive\napproach to cybersecurity and technical proficiency."
+        "Elevated user interfaces, achieving a 40\\% increase in user engagement through expert application of ReactJS, HTML, CSS, and JavaScript. Demonstrated superior front-end development skills and user experience focus.",
+        "Led the seamless integration of VCS automation and CI/CD pipelines, enhancing team productivity by 30\\% and ensuring bug-free code with a commitment to TDD principles.",
+        "Spearheaded the rapid development and delivery of 5 application iterations within a tight deadline, showcasing agility and responsiveness to organizational needs.",
+        "Secured a critical system vulnerability, fortifying web security and safeguarding sensitive data, reflecting a proactive approach to cybersecurity and technical proficiency."
+      ]
+    },
+    {
+      "companyName": "Freelance",
+      "position": "Software Engineer",
+      "companyAddress": "Egham, Surrey",
+      "startDate": "Oct 20",
+      "endDate": "Present",
+      "stillWorking": true,
+      "description": [
+        "Spearheaded the modernization of a retail platform, boosting user engagement by 40\\% with responsive design and personalized recommendations, leveraging ReactJS and AWS. Integrated Flowable for seamless workflow automation.",
+        "Developed a HIPAA-compliant appointment system for healthcare, reducing administrative workload by 30\\% and improving patient access. Employed Django and Azure, with Jenkins ensuring flawless CI/CD processes.",
+        "Created a fintech data analysis tool, enhancing decision-making through real-time processing and trend analytics. Utilized Flask and Google Cloud, incorporating Activiti for efficient data workflow optimization."
       ]
     },
     {
@@ -51,17 +64,17 @@
       "description": [
         "Slashed service request response time from average of 13 days to 3 hours by developing security approval automation.",
         "Successfully led the development of an observability system for 32 product components to achieve multi-fold performance improvements within 4 months.",
-        "Led Apache Kafka integration, boosting transaction throughput by 300%, setting a new fintech industry standard.",
+        "Led Apache Kafka integration, boosting transaction throughput by 300\\%, setting a new fintech industry standard.",
         "Worked extensively within the back-end team to deliver important stories using Spring Boot Java and Apache Kafka.",
-        "Spearheaded the development of a feature-rich, internal tool that automated the previously manual process of code deployment, reducing the deployment time by 75% and significantly increasing the development team's efficiency and productivity."
+        "Spearheaded the development of a feature-rich, internal tool that automated the previously manual process of code deployment, reducing the deployment time by 75\\% and significantly increasing the development team's efficiency and productivity."
       ]
     },
     {
-      "companyName": "Pollinate International Limited",
-      "position": "Junior Software Engineer / Service Management Intern",
-      "companyAddress": "London, England",
-      "startDate": "July 22",
-      "endDate": "Sept 23",
+      "companyName": "Royal Holloway Information Security Group",
+      "position": "Cybersecurity Research Intern",
+      "companyAddress": "Egham, Surrey",
+      "startDate": "June 21",
+      "endDate": "Aug 21",
       "stillWorking": false,
       "description": [
         "Successfully led the development of an observability system for 32 product components to achieve multi-fold performance improvements within 4 months.",
@@ -93,11 +106,11 @@
     {
       "name": "Personal Portfolio Website",
       "technologiesUsed": ["ReactJs", "Github Pages"],
-      "premise": "Lorem Ipsum Shite is what I am trying to solve",
+      "premise": "Developing an online portfolio to professionally showcase my technological expertise, skill progression, and unique personality, offering a comprehensive insight into my professional journey and personal brand.",
       "description": [
         "Designed and deployed a personal portfolio website leveraging ReactJs for dynamic user interactions and optimized for performance.",
         "Hosted on GitHub Pages for reliable, zero-cost hosting, demonstrating proficiency in deploying and maintaining web content.",
-        "Showcased a range of projects, skills, and accomplishments through an engaging, user-friendly interface, enhancing online visibility and professional branding.",
+        "Showcased a range of projects, skills, and accomplishments through an engaging, user-friendly interface, enhancing online visibility and professional branding."
       ]
     }
   ],
@@ -122,7 +135,7 @@
       "endDate": "June 20",
       "grade": "A",
       "description": [
-        "Elected House Captain and Head of Discipline",
+        "Elected \\textbf{House Captain} and \\textbf{Head of Discipline}",
         "Led and organised 'DS Venturists' an inter-school business competition"
       ]
     }
@@ -137,26 +150,22 @@
     {
       "name": "Problem Solving",
       "issuer": "HackerRank",
-      "issueDate": "Nov 23",
-      "expiryDate": ""
+      "issueDate": "Nov 23"
     },
     {
       "name": "SQL",
       "issuer": "HackerRank",
-      "issueDate": "Nov 23",
-      "expiryDate": ""
+      "issueDate": "Nov 23"
     },
     {
       "name": "Rest API",
       "issuer": "HackerRank",
-      "issueDate": "Nov 23",
-      "expiryDate": ""
+      "issueDate": "Nov 23"
     },
     {
       "name": "Software Engineering",
       "issuer": "HackerRank",
-      "issueDate": "Nov 23",
-      "expiryDate": ""
+      "issueDate": "Nov 23"
     }
   ]
 }

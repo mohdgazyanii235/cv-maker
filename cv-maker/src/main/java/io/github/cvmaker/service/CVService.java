@@ -29,7 +29,6 @@ public class CVService {
         String outputFilePath = "src/main/resources/outputs/" + cvParams.getName().replace(' ', '_') + ".tex";
         try (Writer writer = new FileWriter(outputFilePath)){
             template.process(cvParams, writer);
-            this.compileTexToPdf(outputFilePath);
         } catch (TemplateException e) {
             throw new RuntimeException(e);
         }

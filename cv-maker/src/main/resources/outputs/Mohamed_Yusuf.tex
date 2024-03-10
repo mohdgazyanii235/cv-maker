@@ -1,0 +1,272 @@
+%-------------------------
+% Resume in Latex
+% Author : Gennadii Chursov
+% Based off of: https://github.com/sb2nov/resume and https://www.overleaf.com/latex/templates/jakes-resume/syzfjbzwjncs
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+\fancyfoot[C]{\footnotesize Last Updated: \today}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Mohamed Yusuf} \\ \vspace{1pt}
+    \small \textit{Graduate Software Engineer} \\
+    123-456-7890 $|$ \href{mailto:mohdgazyanii235@gmail.com}{\underline{mohdgazyanii235@gmail.com}} $|$
+    \href{https://www.linkedin.com/in/moyusuf01}{\underline{https://www.linkedin.com/in/moyusuf01}} $|$
+    \href{https://github.com/mohdgazyanii235}{\underline{https://github.com/mohdgazyanii235}}
+\end{center}
+
+%-----------SUMMARY-----------
+    \section*{Summary}
+    5+ years of software engineering experience, specialising in building secure applications using Java, Python and C++
+
+
+%-----------TECHNICAL SKILLS-----------
+    \section{Technical Proficiencies}
+        \begin{itemize}[leftmargin=0.15in, label={}]
+            \small{\item{
+                    \textbf{Programming Languages}{: Java, Kotlin, Python, JavaScript, C++, C#, Rust, Typescript} \\
+                    \textbf{Tools}{: Git, Docker, Jenkins} \\
+                    \textbf{Systems \& Tools}{: Microsoft Azure, AWS, Heroku, Kubernetes, Git, SVN, Docker, Redis} \\
+                    \textbf{Frameworks \& Libraries}{: Java Spring, ReactJs, ReactNative, NodeJs, NextJs, Django, Flask} 
+            }}
+        \end{itemize}
+
+%-----------EXPERIENCE-----------
+    \section{Experience}
+      \resumeSubHeadingListStart
+
+            \resumeSubheading
+            {Computer Science Teaching Assistant}{Sept 23 -- Present}
+            {Royal Holloway University of London}{Egham, Surrey}
+            \resumeItemListStart
+                \resumeItem{Developed and maintained scalable web applications using Java and Spring Boot.}
+                \resumeItem{Led a team to design a microservices architecture for a cloud-based solution.}
+                \resumeItem{Implemented CI/CD pipelines, reducing deployment time by 50.}
+            \resumeItemListEnd
+            \resumeSubheading
+            {Lead Web Developer}{Sept 23 -- Present}
+            {Royal Holloway Student's Union}{Egham, Surrey}
+            \resumeItemListStart
+                \resumeItem{Elevated user interfaces, achieving a 40\% increase in user engagement through expert application of ReactJS, HTML, CSS, and JavaScript. Demonstrated superior front-end development skills and user experience focus.}
+                \resumeItem{Led the seamless integration of VCS automation and CI/CD pipelines, enhancing team productivity by 30\% and ensuring bug-free code with a commitment to TDD principles.}
+                \resumeItem{Spearheaded the rapid development and delivery of 5 application iterations within a tight deadline, showcasing agility and responsiveness to organizational needs.}
+                \resumeItem{Secured a critical system vulnerability, fortifying web security and safeguarding sensitive data, reflecting a proactive approach to cybersecurity and technical proficiency.}
+            \resumeItemListEnd
+            \resumeSubheading
+            {Software Engineer}{Oct 20 -- Present}
+            {Freelance}{Egham, Surrey}
+            \resumeItemListStart
+                \resumeItem{Spearheaded the modernization of a retail platform, boosting user engagement by 40\% with responsive design and personalized recommendations, leveraging ReactJS and AWS. Integrated Flowable for seamless workflow automation.}
+                \resumeItem{Developed a HIPAA-compliant appointment system for healthcare, reducing administrative workload by 30\% and improving patient access. Employed Django and Azure, with Jenkins ensuring flawless CI/CD processes.}
+                \resumeItem{Created a fintech data analysis tool, enhancing decision-making through real-time processing and trend analytics. Utilized Flask and Google Cloud, incorporating Activiti for efficient data workflow optimization.}
+            \resumeItemListEnd
+            \resumeSubheading
+            {Junior Software Engineer / Service Management Intern}{July 22 -- Sept 23}
+            {Pollinate International Limited}{London, England}
+            \resumeItemListStart
+                \resumeItem{Slashed service request response time from average of 13 days to 3 hours by developing security approval automation.}
+                \resumeItem{Successfully led the development of an observability system for 32 product components to achieve multi-fold performance improvements within 4 months.}
+                \resumeItem{Led Apache Kafka integration, boosting transaction throughput by 300\%, setting a new fintech industry standard.}
+                \resumeItem{Worked extensively within the back-end team to deliver important stories using Spring Boot Java and Apache Kafka.}
+                \resumeItem{Spearheaded the development of a feature-rich, internal tool that automated the previously manual process of code deployment, reducing the deployment time by 75\% and significantly increasing the development team's efficiency and productivity.}
+            \resumeItemListEnd
+            \resumeSubheading
+            {Cybersecurity Research Intern}{June 21 -- Aug 21}
+            {Royal Holloway Information Security Group}{Egham, Surrey}
+            \resumeItemListStart
+                \resumeItem{Successfully led the development of an observability system for 32 product components to achieve multi-fold performance improvements within 4 months.}
+                \resumeItem{Conducted security assessments of the widevine.dll file with a systematic approach, identifying and evaluating potential vulnerabilities and demonstrating software engineering knowledge in cybersecurity.}
+                \resumeItem{Employed malware analysis tools like Ghidra and IDA Pro, showcasing proficiency in software reverse engineering and data analysis.}
+                \resumeItem{Research Paper URL: https://shorturl.at/eyHIO}
+            \resumeItemListEnd
+
+      \resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+    \section{Projects}
+        \resumeSubHeadingListStart
+                \resumeProjectHeading
+                    {\textbf{CV Maker} $|$ \emph{Java Spring Boot,ReactJs,Free Marker Templating Engine,Latex,}}{}
+                    \resumeItem{\textit{\textbf{Problem - } The process of tailoring ones CV for different job applications is tedious and time consuming.}}
+                    \resumeItemListStart
+                            \resumeItem{Implemented a user-friendly front-end portal for seamless portfolio management and JSON file population.}
+                            \resumeItem{Enabled dynamic CV content selection, allowing users to tailor their resumes effortlessly for diverse job applications.}
+                            \resumeItem{Automated PDF CV generation with customizable LaTeX templates, streamlining the resume creation process.}
+                    \resumeItemListEnd
+                \resumeProjectHeading
+                    {\textbf{Sudoku Solver} $|$ \emph{Python,}}{}
+                    \resumeItem{\textit{\textbf{Problem - } Solving Sudoku puzzles rapidly and accurately with an automated Python solution, bypassing human error and time constraints.}}
+                    \resumeItemListStart
+                            \resumeItem{Utilised backtracking to achieve efficient puzzle resolution by systematically exploring all possible solutions for each cell.}
+                    \resumeItemListEnd
+                \resumeProjectHeading
+                    {\textbf{Personal Portfolio Website} $|$ \emph{ReactJs,Github Pages,}}{}
+                    \resumeItem{\textit{\textbf{Problem - } Developing an online portfolio to professionally showcase my technological expertise, skill progression, and unique personality, offering a comprehensive insight into my professional journey and personal brand.}}
+                    \resumeItemListStart
+                            \resumeItem{Designed and deployed a personal portfolio website leveraging ReactJs for dynamic user interactions and optimized for performance.}
+                            \resumeItem{Hosted on GitHub Pages for reliable, zero-cost hosting, demonstrating proficiency in deploying and maintaining web content.}
+                            \resumeItem{Showcased a range of projects, skills, and accomplishments through an engaging, user-friendly interface, enhancing online visibility and professional branding.}
+                    \resumeItemListEnd
+        \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+    \section{Education}
+      \resumeSubHeadingListStart
+            \resumeSubheading
+            {Royal Holloway University of London}{Sept 20 -- June 24}
+            {Computer Science with Information Security}{First Class Honours}
+            \resumeItemListStart
+                \resumeItem{Received first class result in every exam and assignment held at university.}
+                \resumeItem{Awarded the Scholarship of International Leadership}
+                \resumeItem{Won runner-up position in the Java coding competition}
+                \resumeItem{Selected to be a 'Student Mentor' for first and second year students}
+            \resumeItemListEnd
+            \resumeSubheading
+            {Dubai Scholars Private School}{Sept 18 -- June 20}
+            {IT}{A}
+            \resumeItemListStart
+                \resumeItem{Elected \textbf{House Captain} and \textbf{Head of Discipline}}
+                \resumeItem{Led and organised 'DS Venturists' an inter-school business competition}
+            \resumeItemListEnd
+      \resumeSubHeadingListEnd
+
+
+    \section*{Additional Skills}
+            Leadership, 
+            ITSM, 
+            Agile, 
+            Communication
+
+%-----------Certifications-----------
+    \section{Certifications}
+      \begin{itemize}[leftmargin=0.15in, label={}]
+        \small{\item{
+         \textbf{Problem Solving - HackerRank} \\
+         \textit{Nov 23 } \\
+         \textbf{SQL - HackerRank} \\
+         \textit{Nov 23 } \\
+         \textbf{Rest API - HackerRank} \\
+         \textit{Nov 23 } \\
+         \textbf{Software Engineering - HackerRank} \\
+         \textit{Nov 23 } \\
+        }}
+     \end{itemize}
+
+%-----------LANGUAGES-----------
+    \section{Languages}
+        \begin{itemize}[leftmargin=0.15in, label={}]
+            \small{\item{
+                    \textbf{English}{: Spoken, Written, Read} \\
+                    \textbf{Hindi}{: Spoken, Written, Read} \\
+                    \textbf{Arabic}{: Written, Read} 
+            }}
+        \end{itemize}
+
+%-------------------------------------------
+\end{document}

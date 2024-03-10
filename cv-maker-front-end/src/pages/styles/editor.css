@@ -1,0 +1,41 @@
+@import "../../styles.css";
+
+.title-area {
+    height: 100px;
+    justify-content: center;
+    display: flex;
+}
+
+.title-area h1 {
+    color: var(--primary-color);
+}
+
+.cv-key, .cv-sub-key {
+    color: var(--primary-color);
+    font-weight: 700;
+    border: 1px solid var(--tertiary-color);
+}
+
+.cv-key {
+    font-size: 30px;
+}
+
+.cv-sub-key {
+    font-size: 20px;
+}
+
+
+.cv-text {
+    color: var(--secondary-color);
+    font-size: 20px;
+    font-weight: 500;
+    border: 1px solid var(--tertiary-color);
+}
+
+.cv-record {
+    margin-bottom: 10px;
+}
+
+.experience, .education, .project, .certifications {
+    margin-bottom: 75px;
+}
